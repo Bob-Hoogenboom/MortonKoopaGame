@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class ItemRotate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] float _rotattionSpeed = 30f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(new Vector3(0, _rotattionSpeed, 0) * Time.deltaTime);
     }
 }

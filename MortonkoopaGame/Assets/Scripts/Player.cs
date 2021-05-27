@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] private float _MoveSpeed;
+/*    [SerializeField] private float _MoveSpeed;
     [SerializeField] private float _Walkspeed;
     [SerializeField] private float _RunSpeed;
 
@@ -27,6 +27,6 @@ public class Player : MonoBehaviour
         _MoveDirection = new Vector3(0,0, moveZ);
         _MoveDirection *= _Walkspeed;
 
-        _PlayerController.Moving(_MoveDirection * Time.deltaTime);
-    }
+        _PlayerController.Move(_MoveDirection * Time.deltaTime);
+    }*/
 }
