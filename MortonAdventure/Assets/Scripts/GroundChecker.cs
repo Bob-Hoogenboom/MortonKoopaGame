@@ -18,7 +18,7 @@ public class GroundChecker : MonoBehaviour
 
         if (isGrounded && _cCMScript.velocity.y < 0)
         {
-            Debug.Log("Ground Checked");
+            // Debug.Log("Ground Checked");
             _cCMScript.velocity.y = -2;
         }
 
